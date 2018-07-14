@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign"
+    tools:context=".SignUp">
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:hint="Phone No."
+        android:inputType="phone"
+        android:text="8436145897"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="351dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text="bhawana"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="341dp"
+        android:layout_height="62dp"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Password."
+        android:inputType="textPassword"
+        android:text="1234"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:background="#e2bc40"
+        android:text="Sign Up"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
